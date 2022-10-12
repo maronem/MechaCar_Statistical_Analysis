@@ -3,9 +3,11 @@
 ## Linear Regression to Predict MPG
 All data analysis in this section is using the output from our multiple linear regression model in Fig 1.
 
+```
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 From our multiple linear regression model, we found that vehicle length and ground clearance provided a significant, or non-random, amount of variance toward mpg values in our MechaCar dataset. 
+```
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 

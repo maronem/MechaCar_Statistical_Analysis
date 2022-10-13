@@ -35,21 +35,27 @@ When parsing the data by lot, we found that while suspension coil manufacturing 
 
 ## T-Tests on Suspension Coils
 
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
-*Determining if the all lots are sig against mean pSI of population, then if each indiv. lot is sig against mean PSI of pop*
-
 To determine if the PSI across all manufacturing lots and each lot individually is statistically significant from the population mean of 1500 pounds/sq. inch, we utilized the t-test. Running a t-test comparing the PSI across all manufacturing lots to the population mean, we found that the combined manufacturing lot PSI mean (1498.78) was not significantly different from the population with a p-value = 0.06 (Fig 4.). 
 
 #### Fig 4.
 ![image](https://user-images.githubusercontent.com/108199140/195469714-eafe8565-f726-444f-8e3c-a0ddcbe271f6.png)
 
+Next, when we compared each manufacturing lot individually against the mean PSI of the population, we found that only manufacturing lot 3 had a mean PSI statistically significant compared to the population with a mean PSI of 
+1496.14 and a p-value of 0.04 (Fig 5c.).
 
+#### Fig 5a. Manufacturing Lot 1
 
+![image](https://user-images.githubusercontent.com/108199140/195469992-306dd69f-170d-41c5-ae31-928b2176d6a3.png)
 
+#### Fig 5b. Manufacturing Lot 2
 
+![image](https://user-images.githubusercontent.com/108199140/195470013-facdbd7f-cbd4-4258-b350-10597748fbf1.png)
 
+#### Fig 5c. Manufacturing Lot 3
 
+![image](https://user-images.githubusercontent.com/108199140/195470045-6e725c56-1189-4ad3-8b48-ceddbec23ad6.png)
+
+## Study Design: MechaCar vs. Competition
 
 
 

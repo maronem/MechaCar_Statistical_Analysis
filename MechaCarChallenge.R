@@ -11,7 +11,7 @@ library(dplyr)
 mechacar_table <- read.csv(file='MechaCar_mpg.csv', check.names=F,stringsAsFactors=F)
 
 #create linear model
-summary(lm(vehicle_length ~ vehicle_weight + spoiler_angle + ground_clearance + AWD + mpg, data=mechacar_table))
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mechacar_table))
 #p-value < .001, r2 = 0.68
 
 
@@ -27,6 +27,7 @@ total_summary <- summarize(coil_table, Mean=mean(coil_table$PSI), Median=median(
 lot_summary <- coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
 # DELIVERABLE 3 -----------------------------------------------
+t.test(coil_table$PSI, mu=1500)
 
 # t-test for each PSI by each lot
 

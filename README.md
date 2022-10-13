@@ -33,7 +33,16 @@ When parsing the data by lot, we found that while suspension coil manufacturing 
 #### Fig 3.
 ![indv_lot_var](https://user-images.githubusercontent.com/108199140/195468299-3ed84302-63fc-4180-be38-5a2764884fdc.PNG)
 
+## T-Tests on Suspension Coils
 
+Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+*Determining if the all lots are sig against mean pSI of population, then if each indiv. lot is sig against mean PSI of pop*
+
+To determine if the PSI across all manufacturing lots and each lot individually is statistically significant from the population mean of 1500 pounds/sq. inch, we utilized the t-test. Running a t-test comparing the PSI across all manufacturing lots to the population mean, we found that the combined manufacturing lot PSI mean (1498.78) was not significantly different from the population with a p-value = 0.06 (Fig 4.). 
+
+#### Fig 4.
+![image](https://user-images.githubusercontent.com/108199140/195469714-eafe8565-f726-444f-8e3c-a0ddcbe271f6.png)
 
 
 

@@ -57,13 +57,6 @@ Next, when we compared each manufacturing lot individually against the mean PSI 
 
 ## Study Design: MechaCar vs. Competition
 
-*Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating
-
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
 As we determined using our linear regression model, both vehicle length and ground clearance had a siginificant impact on MechaCar MPG performance. While these gave insight into MechaCar performance, other metrics may be beter to test as our statistical model was not great having an R-squared of 0.71. Other factors such as engine size, tire type, fuel type may impact a car's performance more. To see how MechaCar performs against the competition, we could test engine size, tire type, fuel type, and MPG against 4 other major car competitors. Our null hypothesis would be that engine size, tire type, an fuel type have no impact on MPG car performance and there is no difference in MPG. Our alternative hypothesis would be that engine size, tire type, and fuel type have a signifcant impact on MPG. First we would use a Shaprio-Wilk test on MPG data to make sure our data is normally distributed. Then, perform a ANOVA testing the MPG of all samples between MechaCar and each competitor to determine if there is a difference in mean MPG. IF there is no signifcant difference, we can accept our null hypothesis. Otherwise, going forward we can run two-way ANOVAS to test car brand and each variable against MPG to see if there are signifcant differences in each metric between car brands on MPG performance.
 
 
